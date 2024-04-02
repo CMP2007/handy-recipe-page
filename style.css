@@ -3,7 +3,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  color: hsl(30, 10%, 34%)
+  color: hsl(30, 10%, 34%);
 }
 html{
     background-color:hsl(30, 54%, 90%);
@@ -21,17 +21,24 @@ article{
   width: 375px;
   display: block;
 }
+h1{color: hsl(24, 5%, 18%);}
+h2{font-size: 1.75rem;}
 h1, h2 {
     font-family: "Young Serif", serif;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
   }
 h2, li{color: hsl(14, 45%, 36%); }
 
-p{font-size: 16px;}
+.p1{font-weight: 500;}
+
+p{font-size: 16px; line-height: 1.3rem;}
 
 ul, ol{padding-left: 1.5rem;}
 
+ul p, ol p{
+  margin-left: 1rem;
+}
 
 .PreparationTime{
   padding: 1rem;
@@ -53,24 +60,32 @@ margin: 0;
 }
 
 
-
-.PreparationTime li p, .Ingredients li p, .Instructions li p {
-  padding: 0rem 2rem 0rem 1rem ;
-}
-
-
-.nutrition, .Instructions{
-  border-top: 1px solid hsl(30, 18%, 87%);
-}
-
-.nutrition, .Instructions, .nutrition{
- 
-}
-
 .Instructions ol li{
   font-weight: 700;
 }
+.nutrition, .Instructions{
+  border-top: 1px solid hsl(30, 18%, 87%);
+  padding-top: 1rem;
+}
 
+.PreparationTime, .Ingredients, .nutrition, .Instructions, .nutrition{
+  margin-bottom: 2rem;
+}
+
+table{
+  background-color: aqua;
+  width: 100%;
+}
+td{
+  text-align: center;
+}
+.data{
+  padding-top: 1rem;
+  text-align: left;
+}/*color grosor y lineas*/
+
+
+.nutrition p { margin-right: 0.5rem;}
 
   
 .attribution { font-size: 11px; text-align: center; }
