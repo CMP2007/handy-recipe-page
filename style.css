@@ -12,6 +12,7 @@ html{
 }
 main{
   width: 375px;
+  max-width: 100%;
 }
 article{
     background-color: hsl(0, 0%, 100%);
@@ -22,13 +23,13 @@ article{
   display: block;
 }
 h1{color: hsl(24, 5%, 18%);}
+h2, li{color: hsl(14, 45%, 36%); }
 h2{font-size: 1.75rem;}
 h1, h2 {
     font-family: "Young Serif", serif;
     font-weight: 500;
     font-style: normal;
   }
-h2, li{color: hsl(14, 45%, 36%); }
 
 .p1{font-weight: 500;}
 
@@ -73,20 +74,42 @@ margin: 0;
 }
 
 table{
-  background-color: aqua;
-  width: 100%;
+  width: 95%;
+  border-collapse: collapse;
 }
 td{
   text-align: center;
+  padding: .75rem 0;
 }
 .data{
-  padding-top: 1rem;
   text-align: left;
-}/*color grosor y lineas*/
-
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+tr{
+  border-top: 1px solid hsl(30, 18%, 87%);
+}
+tr:nth-child(1){
+  border-top: none;
+}
 
 .nutrition p { margin-right: 0.5rem;}
 
   
+
+/* @media (min-width: 376px) {
+  main{
+    width: 50vh;
+    max-width: 100%;
+  }
+  article{
+    margin: 5rem auto 5rem auto;
+  }
+} */
+
+
+
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
