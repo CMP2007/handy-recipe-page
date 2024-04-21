@@ -21,7 +21,8 @@ article{
 .img{
   width: 375px;
   position: relative;
-  transform:translateX(-1.9rem);
+  transform:translateX(-0.9rem);
+  margin-top: -7px;
 }
 h1{color: hsl(24, 5%, 18%);}
 h2, li{color: hsl(14, 45%, 36%); }
@@ -115,6 +116,7 @@ tr:nth-child(1){
     height: auto;
     position:static;
     margin: 0.9rem 1.9rem;
+    transform:translateX(-1.9rem);
   }
   td{
     text-align: left;
