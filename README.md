@@ -1,5 +1,8 @@
 # Recipe Page: Semantic Layout & Typography Exercise
 
+> [!Note]
+>> This repository contains a legacy project from my early days as a programmer
+
 This project is a **historical practice** focused on mastering complex CSS layouts, web font integration, and semantic HTML5 structures. I preserve it in my portfolio as evidence of my ability to replicate high-fidelity professional designs with clean, organized code.
 
 ---
